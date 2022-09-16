@@ -1,0 +1,87 @@
+@media (max-width: 97.5rem) {
+  .social-container{
+    width: 60%;
+  }
+}
+
+@media (max-width: 81rem) {
+  .social-container{
+    width: 70%;
+  }
+}
+
+@media (max-width: 68rem) {
+  .social-container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 54rem) {
+  .social-container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+
+  .down-category-desc P{
+    padding-bottom: 1.1rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .social-container{
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+    gap: 1.2rem;
+  }
+
+  .category-desc::after{
+    position: absolute;
+    content: "0.1";
+    font-family: configRoundedBold;
+    font-size: 1.8rem;
+  
+    padding: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  
+    top: -1rem;
+    right: -1rem;
+  }
+
+  .social-desc{
+    padding-bottom: 7rem;
+  }
+
+  .down-category-desc P{
+    padding-bottom: 1.8rem;
+  }
+
+  .btn-owtot{
+    grid-column: 1 / -1;
+  }
+}
+
+/* ::-webkit-scrollbar{
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+  border: 0.2rem solid aliceblue;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+}
+
+::-webkit-scrollbar-button{
+  height: 30%;
+} */

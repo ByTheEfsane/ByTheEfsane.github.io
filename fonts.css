@@ -1,0 +1,17 @@
+@font-face{
+  font-family: configRoundedBold;
+  src: url(fonts/Config\ Rounded\ Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: configRoundedBolder;
+  src: url(fonts/Config\ Rounded\ Extrabold.otf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: configRoundedRegular;
+  src: url(fonts/Config\ Rounded\ Regular.otf);
+  font-weight: normal;
+}
